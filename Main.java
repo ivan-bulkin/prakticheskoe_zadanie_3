@@ -187,7 +187,7 @@ public class Main {
         String[] words = {"apple", "orange", "lemon", "banana", "apricot", "avocado", "broccoli", "carrot", "cherry", "garlic", "grape", "melon", "leak", "kiwi", "mango", "mushroom", "nut", "olive", "pea", "peanut", "pear", "pepper", "pineapple", "pumpkin", "potato"};
         int nomer_zagadannogo_slova = (int) (Math.random() * 25);//Случайным образом выбираем загаданное слово, всего 25-слов
         String zagadannogo_slovo = words[nomer_zagadannogo_slova];
-        System.out.println("Загаданное слово: " + zagadannogo_slovo);
+//        System.out.println("Загаданное слово: " + zagadannogo_slovo);//Выводим загаданное слово, чтобы было легко проверить работоспособность программы
         proverayem_slovo(zagadannogo_slovo, 0);
 //        polzovatelskoe_slovo.charAt(0);
     }
