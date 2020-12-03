@@ -204,7 +204,7 @@ public class Main {
                     System.out.printf(String.valueOf(polzovatelskoe_slovo.charAt(i)));
                     System.out.print("\u001B[30m");//это чёрный цвет
                     skolko_bukv_ugadano++;
-                    if (skolko_bukv_ugadano == zagadannogo_slovo.length()) {
+                    if (skolko_bukv_ugadano == zagadannogo_slovo.length() & polzovatelskoe_slovo.length() == zagadannogo_slovo.length()) {
                         System.out.println("\nПоздравляем, Вы угадали загаданное слово: " + zagadannogo_slovo + " Количество Ваших попыток: " + kol_vo_popitok);
                         return;
                     }
